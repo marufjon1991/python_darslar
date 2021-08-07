@@ -1,2 +1,2 @@
 # python_darslar
-mohirdev platformasida berib borilgan vazifalarning kodlari
+Bu darslarda asosan mohirdev platformasida berib borilgan python darsturlash asoslari amaliy mashqlari kodlari o'rin olgan. 
