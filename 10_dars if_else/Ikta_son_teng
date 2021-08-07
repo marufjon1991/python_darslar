@@ -1,0 +1,6 @@
+b_son = int(input('Birinchi sonni kiriting: '))
+i_son = int(input('Ikkinchi sonni kiriting: '))
+if b_son == i_son:
+    print(f"{b_son} {i_son} ga teng")
+else:
+    print(f"{b_son} {i_son} ga teng emas")

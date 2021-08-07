@@ -1,0 +1,8 @@
+son = float(input('Istalgan son kiriting: '))
+if son > 0:
+    print(f"{son} musbat son")
+elif son == 0:
+    print(f"{son} butun son")
+else:
+    print(f"{son} manfiy son")
+
