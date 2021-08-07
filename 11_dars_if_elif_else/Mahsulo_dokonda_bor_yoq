@@ -1,0 +1,14 @@
+mahsulotlar = ['kartoshka', 'sabzi', 'piyoz', 'tuxum', 'pomidor',
+               'bodring', 'qovun', 'tarvuz', 'shaftoli', 'olma']
+savat = []
+for n in range(5):  # 1dan 5gacha ketma ketlik uchun
+    savat.append(input(f"{n + 1}-mahsulotni kiriting: ").lower()) #savatni ichiga foydalanuvchi kiritgan mahsulotlarni qo'shish
+
+for mahsulot in savat: #savatni ichidagi har bi mahsulot
+    if mahsulot in mahsulotlar: #savatni ichidagi mahsulotni mahsulotlar bilan solishtirib chiqish
+        print(f"{mahsulot.title()} do\konimizda bor")
+    else:
+        print(f"{mahsulot.title()} do\'konimizda yo\'q")
+    
+
+    

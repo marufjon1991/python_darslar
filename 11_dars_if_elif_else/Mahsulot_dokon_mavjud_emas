@@ -1,0 +1,19 @@
+mahsulotlar = ['kartoshka', 'sabzi', 'piyoz', 'tuxum', 'pomidor',
+               'bodring', 'qovun', 'tarvuz', 'shaftoli', 'olma']
+savat = []
+for n in range(5):
+    savat.append(input(f"{n+1}-mahsulotni kiriting: "))
+bor_mahsulot = []
+mavjud_emas = []
+for mahsulot in savat:
+    if mahsulot in mahsulotlar:
+        bor_mahsulot.append(mahsulot)
+    else:
+        mavjud_emas.append(mahsulot)
+            
+if mavjud_emas:
+    print(f"Do'konimizda quyidagi mahsulotlar yo'q:")
+    for mahsulot in mavjud_emas:
+        print(mahsulot)
+else:
+        print("Siz so'ragan barcha mahsulotlar do'konimizda bor")
