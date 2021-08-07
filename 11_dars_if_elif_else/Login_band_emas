@@ -1,0 +1,6 @@
+foydalanuvchilar = ['Jasur1990', 'gegimon0707', 'alfa_alfa', 'bodrum', 'red_mi']
+f_login = input(f"loginni kiriting: ") #foydalanuvchi kiritgan login
+if f_login in foydalanuvchilar:
+    print("Login band, yangi login tanlang!")
+else:
+    print(f"Xush kelibsiz {f_login}")
