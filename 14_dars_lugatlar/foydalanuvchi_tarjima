@@ -1,0 +1,12 @@
+foydalanuvchi = input("Biror so'z kiriting: ")
+dictionary = {
+    'python':'dasturlash tili',
+    'if':'agar shart operatori',
+    'int':'butun sonlar',
+    'input':'foydalanuvchi tomonidan matn, son va bosh. kiritish',
+    'float':'butun qismli sonlar'
+    }
+if dictionary.get(foydalanuvchi)==None:
+    print('Bunday so\'z mavjud emas')
+else:
+    print(f"{foydalanuvchi} so'zi {dictionary.get(foydalanuvchi)} deb tarjima qilinadi")

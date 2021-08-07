@@ -1,0 +1,6 @@
+ustozim = {
+    "ism":"Alisher",
+    "kasb":"Ingliz tili o'qituvchisi",
+    "ish joyi":"Universitet"
+    }
+print(f"{ustozim['ism']}, {ustozim['kasb']}, {ustozim['ish joyi']}da ishlaydi")

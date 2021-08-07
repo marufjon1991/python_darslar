@@ -1,0 +1,8 @@
+taom = {
+        'taom_1':'osh',
+        'taom_2':'manti',
+        'taom_3':'chuchvara',
+        'taom_4':'sho\'rva',
+        'taom_5':'lag\'mon'
+        }
+print(f"Alining sevimli taomi {taom['taom_3']}")
