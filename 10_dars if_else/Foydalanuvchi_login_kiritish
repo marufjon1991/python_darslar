@@ -1,0 +1,5 @@
+login = input('loginni kiriting: ').lower() # foydalanuvchidan loginni so'rash
+if login == 'admin':
+    print("Xush kelibsiz, Admin. Foydalanuvchilar ro'yxatini ko'rasizmi?")
+else:
+    print(f"Xush kelibsiz {login}")
