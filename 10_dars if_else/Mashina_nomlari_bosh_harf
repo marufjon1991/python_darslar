@@ -1,0 +1,1 @@
+cars = ['toyota', 'mazda', 'hyundai', 'gm', 'kia'] #Har bir mashina nomini bosh harflar bilan consolge chiqaring# 'gm' uchun esa har ikkala harfni bosh harfda chiqaringfor car in cars:    if car == 'gm':        print(car.upper())    else:        print(car.title())            
