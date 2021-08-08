@@ -1,0 +1,1 @@
+kinolar = {    'Dudu':['IRIS', 'Harry Potter', 'Istanbullik kelin']    }for ism, kinolar in kinolar.items():    print(f"\n{ism} ning sevimli kinolari: ")    for kino in kinolar:        print(kino)

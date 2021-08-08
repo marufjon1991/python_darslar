@@ -1,0 +1,9 @@
+savol = 'Yaxshi ko\'rgan kitobingizni kiriting: '
+savol += '(Barcha kitoblarni kiritganingizdan so\'ng "exit" deb yozing) '
+while True:
+    kitob = input(savol)
+    if kitob == 'exit':
+        break 
+print('Raxmat')
+   
+    
