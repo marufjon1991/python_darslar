@@ -1,0 +1,16 @@
+menu = {
+        'osh':10000,
+        'manti':8000,
+        'shashlik':12000,
+        'kabob':15000,
+        'halisa':13000,
+        'lag\'mon':14000
+        }
+mijoz = []
+for n in range(3):
+    mijoz.append(input(f"{n+1}-buyurtmani kiriting: "))
+for taom in mijoz:
+    if taom in menu:
+        print(f"{taom.title()} {menu.get(taom)} so'm")
+    else:
+        print(f"Menuda {taom} yo'q")

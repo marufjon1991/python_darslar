@@ -1,0 +1,16 @@
+davlatlar = {
+    "o'zbekiston":'toshkent',
+    'aqsh':'washington d.c.',
+    'rossiya':'moskva',
+    'tojikiston':'dushanbe',
+    "qirg'iziston":'bishkek',
+    'qozog\'iston':'nursulton',
+    'malayziya':'kuala-lumpur',
+    'singapur':'sungapur',
+    'italiya':'rim'
+    }
+davlat = input("Davlat nomini kiriting: ").lower()
+if davlatlar.get(davlat) == None:
+    print("Ro'yxatda bunday davlat yo'q")
+else:
+    print(f"{davlat.title()}ning poytaxti {davlatlar.get(davlat).title()}")

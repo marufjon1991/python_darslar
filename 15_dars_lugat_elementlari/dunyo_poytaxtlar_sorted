@@ -1,0 +1,15 @@
+poytaxtlar = {
+    'Uzbekistan':'Tashkent',
+    'Kazakhistan':'Astona',
+    'Kyrgisistan':'Bishkek',
+    'Turkmenistan':'Ashgabat',
+    'Russia':'Moscow',
+    'Turkey':'Ankara',
+    'India':'Dehli'
+    }
+print(f"Davlatlar")
+for key in sorted(poytaxtlar):
+    print(f"{key.upper()}")
+print(f"\nPoytaxtlar")  
+for value in sorted(poytaxtlar.values()):
+   print(f"{value.upper()}")

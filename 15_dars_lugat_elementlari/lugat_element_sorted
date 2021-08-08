@@ -1,0 +1,11 @@
+dictionary = {
+    'python':'dasturlash tili',
+    'if':'shartli operator',
+    'else':'shartli operator',
+    'title()':'so\'zning birinchi harfini bosh harf bilan yozish uchun funktsiya',
+    'upper()':'so\'zning har bir harfini bosh harf bilan yozish uchun funktsiuya',
+    'int':'butun sonlar',
+    'float':'butun qismli sonlar'
+    }
+for key, value in sorted(dictionary.items()):
+    print(f"{key.title()}: {value} ")
