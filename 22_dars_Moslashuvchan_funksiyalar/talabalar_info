@@ -1,0 +1,6 @@
+def talabalar_info(ism, familiya, **malumotlar):
+    malumotlar['ism'] = ism
+    malumotlar['familiya'] = familiya
+    return malumotlar
+talaba_1 = talabalar_info("Alisher", "Javlonov", t_yil = 1991, t_joy = "Farg'ona")
+print(talaba_1)

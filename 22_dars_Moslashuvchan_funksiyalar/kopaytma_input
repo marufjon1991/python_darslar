@@ -1,0 +1,6 @@
+def kopaytma(*sonlar):
+    kopaytma = 1
+    for son in sonlar:
+        kopaytma *= son
+    return kopaytma
+print(kopaytma(2,4,5,8))
