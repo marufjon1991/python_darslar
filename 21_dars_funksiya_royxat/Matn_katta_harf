@@ -1,0 +1,7 @@
+def katta_harf(matnlar):
+    for n in range(len(matnlar)):
+        matnlar[n] = matnlar[n].title()
+        
+ismlar = ['ali', 'vali', 'nodir', 'ahmad']
+katta_harf(ismlar)
+print(ismlar)
