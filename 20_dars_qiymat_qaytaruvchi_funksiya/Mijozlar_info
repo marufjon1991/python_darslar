@@ -1,0 +1,28 @@
+def mijoz_info(ism, familiya, t_yil, t_joy, telefon=None, email=''):
+    mijoz = {
+        'ism':ism,
+        'familiya':familiya,
+        't_yil':t_yil,
+        't_joy':t_joy,
+        'telefon':telefon,
+        'email':email
+        }
+    return mijoz
+print('Mijoz haqida malumotlarni kiriting: ')
+mijozlar = []
+while True:
+    ism = input('Ismingizni kiriting: ')
+    familiya = input('Familiyangizni kiriting: ')
+    t_yil = int(input('Tug\'ilgan yilingizni kiriting: '))
+    t_joy = input('Tug\'ilgan Viloyatingizni kiriting: ')
+    telefon = input('Telefon raqamingizni kiriting: ')
+    email = input('Emailingizni kiriting: ')
+    mijozlar.append(mijoz_info(ism, familiya, t_yil, t_joy, telefon, email))
+    javob = input('Malumot kiritishni davom ettirasizmi? (yes/no)')
+    if javob == 'no':
+        break 
+for mijoz in mijozlar:
+    print(f"{mijoz['ism'].title()} {mijoz['familiya'].title()} {mijoz['t_yil']}"
+          f" yilda {mijoz['t_joy'].title()}da tug'ilgan, {2021-mijoz['t_yil']} yoshda. "
+          f"Telefon raqami: {mijoz['telefon']}, Email: {mijoz['email']}")
+      
