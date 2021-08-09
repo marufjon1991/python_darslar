@@ -1,0 +1,1 @@
+savat = {}while True:    mahsulot = input("Mahsulot nomini kiriting: ")    narh = input('Mahsulot narhini kiriting: ')    savat[mahsulot] = narh    javob = input("Yana mahsulot qo'shasizmi? (ha/yo'q) ")    if javob != 'ha':        break for mahsulot, narh in savat.items():    print(f"{mahsulot} narhi {narh} so'm")                           
