@@ -1,0 +1,8 @@
+def juft_toq(son):
+    """Foydalanuvchidan son olib shu sonning juft yoki toqligini aniqlash"""
+    if son % 2 == 0:
+        print(f"{son} juft son")
+    else:
+        print(f"{son} toq son")
+
+juft_toq(9)

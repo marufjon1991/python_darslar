@@ -1,0 +1,14 @@
+def katta_son_chiqar(son_1, son_2):
+    """Foydalanuvchidan 2 ta son olib ulardan kattasini chiqarish"""
+    if son_1 > son_2:
+        print(f"{son_1}")
+    elif son_1 == son_2:
+        print('sonlar o\'zaro teng')
+    else:
+        print(f"{son_2}")
+        
+katta_son_chiqar(13,8)
+katta_son_chiqar(45, 45)
+katta_son_chiqar(9, 12)
+        
+

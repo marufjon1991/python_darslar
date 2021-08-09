@@ -1,0 +1,3 @@
+def kv_kub_top(son):
+    print(f"{son} ning kvadrati {son**2}, {son} ning kubi {son*son*son}")
+kv_kub_top(5)

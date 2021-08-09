@@ -1,0 +1,8 @@
+def qoldiqsiz_bol(son):
+    """Foydalanuvchidan son qabul qilib uni 2 dan 10 gacha bo'lgan sonlardan 
+                qaysi biriga qoldiqsiz bo'linishini topish"""
+    for n in range(2,11):
+        if son % n == 0:
+            print(f"{son} {n} ga qoldiqsiz bo'linadi")
+qoldiqsiz_bol(80)
+            

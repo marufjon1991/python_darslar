@@ -1,0 +1,7 @@
+def t_yil_top(ism, yosh):
+    """Foydalanuvchidan ismini va yoshini so'rab,
+    tug'ilgan yilini aniqlaydigan funktsiya"""
+    print(f"{ism.title()} {2021 - yosh}-yilda tug'ilgan")
+
+t_yil_top('anvar', 33)
+
