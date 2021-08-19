@@ -1,0 +1,13 @@
+class User:
+    def __init__(self, ism, foydalanuvchi_ismi, email):
+        self.ism = ism
+        self.foydalanuvchi_ismi = foydalanuvchi_ismi
+        self.email = email
+        
+    def user_info(self):
+        print(f"Ismi {self.ism}, foydalanuvchi ismi: {self.foydalanuvchi_ismi}, emai: {self.email} ")
+    
+user_1 = User("Alijon", "Alijon94", "alijon1994@mail.ru")
+user_2 = User("Valijon", "Valijon95", "valijon777@gmali.com")
+
+user_2.user_info()
