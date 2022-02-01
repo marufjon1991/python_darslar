@@ -15,6 +15,12 @@ class Talaba:
     def fanga_yozil(self, fan_nomi):
         self.fanlar.append(fan_nomi)
         return self.fanlar
+    
+    def remove_fan(self, fan_nomi):
+        if fan_nomi in self.fanlar:
+            self.fanlar.remove(fan_nomi)
+        else:
+            print("Siz bu fanga yozilmagansiz")
         
 class Fan:
     def __init__(self, fan_nomi):
@@ -30,4 +36,7 @@ talaba_1 = Talaba('Valijon', 'Bozorov')
 
 talaba_1.fanga_yozil(fan_1.get_info())
 talaba_1.fanga_yozil(fan_2.get_info())
+print(talaba_1.fanlar)
+
+talaba_1.remove_fan("matematika")
 print(talaba_1.fanlar)
