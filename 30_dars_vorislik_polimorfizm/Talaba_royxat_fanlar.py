@@ -40,3 +40,65 @@ print(talaba_1.fanlar)
 
 talaba_1.remove_fan("matematika")
 print(talaba_1.fanlar)
+
+#Yuqoridagi Shaxs klassidan boshqa turli voris klasslar yaratib ko'ring (masalan Professor, Foydalanuvchi, 
+#Sotuvchi, Mijoz va hokazo)
+
+#Har bir klassga o'ziga hoz xususiyatlar va metodlar yuklang.
+#Barcha yangi klasslar uchun get_info() metodini qayta yozib chiqing.
+#Voris klasslardan yana boshqa voris klass yaratib ko'ring. Misol uchun Foydalanuvchi klassidan Admin klassini 
+#yarating.
+#Admin klassiga foydalanuvchida yo'q yangi metodlar yozing, masalan, ban_user() metodi konsolga "Foydalanuvchi
+# bloklandi" degan matn chiqarsin.
+
+class Shaxs:
+    """Shaxslar haqida ma'lumot"""
+    def __init__(self,ism,familiya,passport,tyil):
+        self.ism = ism
+        self.familiya = familiya
+        self.passport = passport
+        self.tyil = tyil
+    
+    def get_info(self):
+        """Shaxs haqida ma'lumot"""
+        info = f"{self.ism} {self.familiya}. "
+        info += f"Passport:{self.passport}, {self.tyil}-yilda tug`ilgan"
+        return info
+        
+    def get_age(self,yil):
+        """Shaxsning yoshini qaytaruvchi metod"""
+        return yil - self.tyil
+    
+class Foydalanuvchi(Shaxs):
+    def __init__(self, ism, familiya, passport, tyil):
+        super().__init__(ism, familiya, passport, tyil)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
